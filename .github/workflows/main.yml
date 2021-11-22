@@ -22,5 +22,6 @@ jobs:
     - name: Test with flake8 and django tests
       run: |
         python3 -m flake8
-        cd infra_project/
+                cd infra_project/
         python3 manage.py test
+
